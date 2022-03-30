@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lcd char</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+      <div class="inline2">
+        <div class="box-char green">
+          <div class="col">
+            <div class="dot-px" data-x="0" data-y="0"></div>
+            <div class="dot-px" data-x="0" data-y="1"></div>
+            <div class="dot-px" data-x="0" data-y="2"></div>
+            <div class="dot-px" data-x="0" data-y="3"></div>
+            <div class="dot-px" data-x="0" data-y="4"></div>
+          </div>
+          <div class="col">
+            <div class="dot-px" data-x="1" data-y="0"></div>
+            <div class="dot-px" data-x="1" data-y="1"></div>
+            <div class="dot-px" data-x="1" data-y="2"></div>
+            <div class="dot-px" data-x="1" data-y="3"></div>
+            <div class="dot-px" data-x="1" data-y="4"></div>
+          </div>
+          <div class="col">
+            <div class="dot-px" data-x="2" data-y="0"></div>
+            <div class="dot-px" data-x="2" data-y="1"></div>
+            <div class="dot-px" data-x="2" data-y="2"></div>
+            <div class="dot-px" data-x="2" data-y="3"></div>
+            <div class="dot-px" data-x="2" data-y="4"></div>
+          </div>
+          <div class="col">
+            <div class="dot-px" data-x="3" data-y="0"></div>
+            <div class="dot-px" data-x="3" data-y="1"></div>
+            <div class="dot-px" data-x="3" data-y="2"></div>
+            <div class="dot-px" data-x="3" data-y="3"></div>
+            <div class="dot-px" data-x="3" data-y="4"></div>
+          </div>
+          <div class="col">
+            <div class="dot-px" data-x="4" data-y="0"></div>
+            <div class="dot-px" data-x="4" data-y="1"></div>
+            <div class="dot-px" data-x="4" data-y="2"></div>
+            <div class="dot-px" data-x="4" data-y="3"></div>
+            <div class="dot-px" data-x="4" data-y="4"></div>
+          </div>
+          <div class="col">
+            <div class="dot-px" data-x="5" data-y="0"></div>
+            <div class="dot-px" data-x="5" data-y="1"></div>
+            <div class="dot-px" data-x="5" data-y="2"></div>
+            <div class="dot-px" data-x="5" data-y="3"></div>
+            <div class="dot-px" data-x="5" data-y="4"></div>
+          </div>
+          <div class="col">
+            <div class="dot-px" data-x="6" data-y="0"></div>
+            <div class="dot-px" data-x="6" data-y="1"></div>
+            <div class="dot-px" data-x="6" data-y="2"></div>
+            <div class="dot-px" data-x="6" data-y="3"></div>
+            <div class="dot-px" data-x="6" data-y="4"></div>
+          </div>
+          <div class="col">
+            <div class="dot-px" data-x="7" data-y="0"></div>
+            <div class="dot-px" data-x="7" data-y="1"></div>
+            <div class="dot-px" data-x="7" data-y="2"></div>
+            <div class="dot-px" data-x="7" data-y="3"></div>
+            <div class="dot-px" data-x="7" data-y="4"></div>
+          </div>
+        </div>
+        <div class="box-char blue">
+          <canvas id="canvas"></canvas>  
+        </div>
+        <h1 id="Density"></h1>
+      </div>
+      <input id="range" type="range" min="10" max="40" value="10">
+      <input type="checkbox" id="link" checked>
+      <input id="range2" type="range" min="10" max="80" value="10">
+      <br>
+      <button id="copyToClip">copy</button>
+      <div id="r">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+      </div>
+</body>
+</html>
